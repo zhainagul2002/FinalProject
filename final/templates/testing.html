@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Face Masks
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+
+	<div>
+		<video class="video" controls>
+			<source src="{{ url_for('static', filename='videos/test.mp4') }}" type="video/mp4">
+		</video>
+	</div>
+
+		<div class="text">
+
+			<div class="text_item text_item--border">
+				<img class="text_icon" src="images/logo/aiu.jpg" alt="">
+					<h4 class="text_title">Testing</h4>
+				<h4 class="text_text"><p>The <a href="/daily">Daily Health Check</a> is part of a comprehensive strategy to limit the spread of COVID-19 on campus.</p></h4>
+			</div>
+
+			<div class="text_item text_item--border">
+				<img class="text_icon" src="images/logo/aiu.jpg" alt="">
+					<h4 class="text_title">Diagnostic Testing</h4>
+				<h4 class="text_text"><p>Diagnostic testing involves testing those who are showing symptoms of COVID-19 or who have been exposed to someone who has tested positive for COVID-19. Diagnostic Testing is done at <a href="https://www.intelmed.kg/ru/bishkek/news/test-na-antitela-covid-19/">Bonetsky's Labaratory</a> by appointment only.</p></h4>
+			</div>
+
+			<div class="text_item text_item--border">
+				<img class="text_icon" src="images/logo/aiu.jpg" alt="">
+					<h4 class="text_title">Surveillance Testing</h4>
+				<h4 class="text_text"><p>Surveillance testing involves testing a random selection of people from across campus to identify asymptomatic and presymptomatic individuals and help avert potential outbreaks before they occur. Surveillance Testing is done at <a href="https://www.intelmed.kg/ru/bishkek/news/test-na-antitela-covid-19/">Bonetsky's Labaratory</a>. When selected, you will receive a text or email with details.</p></h4>
+			</div>
+
+			<div class="text_item ">
+				<img class="text_icon" src="images/logo/aiu.jpg" alt="">
+					<h4 class="text_title">Testing Elsewhere</h4>
+						<h4 class="title_mini">Students</h4>
+				<h4 class="text_text"><p>Students are strongly encouraged to test at the <a href="https://www.intelmed.kg/ru/bishkek/news/test-na-antitela-covid-19/">Bonetsky's Labaratory</a>. If students have tested positive for COVID-19 at an off Bonetsky's Labaratory, it is critical they upload their external test results to help the University identify high-risk or close contacts, provide timely notifications, and offer guidance on quarantining or self-isolation to prevent further transmission in our campus community.</p><p>It is easy for students (both undergraduate and graduate) to share their external test results with us:</p><p class="sub"><b class="bold">• </b>Take a photo of your test result and sent an email to <b>info@iaau.edu.kg</b>. Instructions are as follows:</p><p class="sub2"><b class="bold2">◦ </b>Log into your AIU email.</p><p class="sub2"><b class="bold2">◦ </b>Click on the Document Upload Link.</p><p class="sub2"><b class="bold2">◦ </b>Write “COVID Test Results” on the Subject line.</p><p class="sub2"><b class="bold2">◦ </b>Select “Browse” and navigate to the test result image you would like to upload.</p><p class="sub2"><b class="bold2">◦ </b>Click “Send” after you have attached the document.</p><p> </p></h4>
+
+						<h4 class="title_mini">Faculty and Staff</h4>
+					<h4 class="text_text"><p>Faculty and staff are strongly encouraged to inform the AIU Health Center if they test positive for COVID-19 regardless of where they have the test performed. This information will help the University’s contact tracers with the contact tracing process for any campus activity.</p><p>We want to make it as easy as possible for faculty and staff getting tested elsewhere to be able to share their test results with us:</p><p class="sub"><b class="bold">• </b>Take a photo of your test result and email it to the AIU <b>info@iaau.edu.kg</b></p></h4>
+			</div>
+
+		</div>
+
+<div class="link">
+	<div class="container">
+		<div class="link_inner">
+			<nav class="link_nav">
+				<a class="nav_link1 nav_link1-1" href="/"> <img src="{{ url_for('static', filename='images/home.png') }}"> Home </a>
+				<a class="nav_link1 nav_link1-1" href="/face-masks"> <img src="{{ url_for('static', filename='images/mask.png') }}"> Face Masks </a>
+				<a class="nav_link1 nav_link1-1" href="/physical-distancing"> <img src="{{ url_for('static', filename='images/distance.png') }}"> Physical Distancing </a>
+				<a class="nav_link1 nav_link1-1" href="/hand-hygiene"> <img src="{{ url_for('static', filename='images/soap.png') }}"> Hand Hygiene </a>
+				<a class="nav_link1 nav_link1-1" href="/daily-health-check"> <img src="{{ url_for('static', filename='images/health.png') }}"> Daily Health Check </a>
+				<a class="nav_link1 nav_link1-1" href="/testing"> <img src="{{ url_for('static', filename='images/tube.png') }}"> Testing </a>
+			</nav>
+		</div>
+	</div>
+</div>
+
+	</div>
+
+{% endblock %}

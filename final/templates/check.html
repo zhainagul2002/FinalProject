@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Face Masks
+{% endblock %}
+
+{% block body %}
+	<div class="container">
+
+		<div>
+			<video class="video" controls>
+				<source src="{{ url_for('static', filename='videos/test.mp4') }}" type="video/mp4">
+			</video>
+	    </div>
+
+		<div class="text">
+
+			<div class="text_item text_item--border">
+				<img class="text_icon" src="images/logo/manas.jpg" alt="">
+					<h4 class="text_title">Daily Health Check</h4>
+				<h4 class="text_text"><p>Our care and concern for each other will be evident in new ways this year. The daily health check is a critically important tool in our efforts to keep members of this community safe and healthy. Each of us—students, faculty and staff—are required to complete a daily health check using the online <a href="/daily">DAILY HEALTH CHECK</a> tool.</p>
+				<p>Beginning Friday, Jan. 1 and continuing throughout the entirety of Winter Break, faculty, staff, graduate and professional students are expected to complete their daily health check if they reside on campus or are coming to campus on any day. Students, faculty and staff do not need to complete the daily health check when they did not plan to come on campus.</p>
+				<p>COVID-19 tests will not be generated automatically for students based on symptoms entered into the daily health check. Students should call <a href="https://www.intelmed.kg/ru/bishkek/news/test-na-antitela-covid-19/">Bonetsky's Labaratory</a> at <b>+996-555-32-03-03 / +996-502-32-03-03 / +996-312-32-03-03</b> to make an appointment for a diagnostic test. Test results wil be available after 48 - 64 hours.
+				</p></h4>
+			</div>
+
+			<div class="text_item text_item--border">
+				<img class="text_icon" src="images/logo/slavic.jpg" alt="">
+					<h4 class="text_title">Notifications</h4>
+				<h4 class="text_text"><p>Beginning Friday, Jan. 1 and continuing for the entirety of Winter Break:</p>
+					<p class="sub"><b class="bold">• </b>Faculty, staff, graduate and professional students will continue to receive daily reminders, but are only expected to complete their daily health check if they reside on campus or are coming to campus on any day.</p>
+					<p class="sub"><b class="bold">• </b>Undergraduate students do not need to complete the daily health check and will no longer receive reminders to do so.</p><p>Outside of the Winter Break, students, faculty, and staff will receive regular reminders to complete the daily health check.</p>
+					<p class="sub"><b class="bold">• </b>Students can expect to receive their reminders via email notification.</p>
+					<p class="sub"><b class="bold">• </b>Faculty and staff will receive their reminders via email notification. A link to the daily health check tool can be found here:.</p>
+					<a class="button" href="/daily">DAILY HEALTH CHECK</a></h4>
+			</div>
+
+			<div class="text_item text_item--border">
+				<img class="text_icon" src="images/logo/slavic.jpg" alt="">
+					<h4 class="text_title">Health check step-by-step</h4>
+				<h4 class="text_text"><p>The daily health check will take less than two minutes to complete and will help you determine whether you present symptoms that require isolation or further assessment.</p><p class="sub"><b class="bold">• </b>Access DAILY HEALTH CHECK tool via daily reminder email or browser bookmark.</p><p class="sub"><b class="bold">• </b>Log into your AIU account on <a href="http://alatoo.edu.kg/">ALA-TOO International University</a>.</p><p class="sub"><b class="bold">• </b>Answer the three questions and submit your response.</p><p class="sub"><b class="bold">• </b>Review your Campus Pass and carefully read all the instructions.</p></h4>
+			</div>
+
+			<div class="text_item text_item--border">
+				<img class="text_icon" src="images/logo/slavic.jpg" alt="">
+					<h4 class="text_title">Passes, Instructions, Scheduling Tests</h4>
+				<h4 class="text_text"><p>The daily health check tool is not intended to diagnose whether you have a disease or other health conditions, including COVID-19, or identify personalized treatments. If you have concerns about your health or the health and safety of your campus, regardless of whether this tool notifies you of a risk, contact the COVID Response Unit.</p><p>You will receive a GREEN, YELLOW, or RED pass. Always read the instructions on your pass carefully and in entirety.</p>
+					<div class="pass">
+						<div>
+							<h4 class="pass_title">Green Pass</h4>
+							<h4 class="text_text"><p> </p><p>Those who do not exhibit any symptoms and who have not been in close contact with someone who has been diagnosed with COVID. You are cleared to be on campus to attend classes, work, and other activities. (Note: This does not change your current job arrangement—only return to campus when advised by your supervisor to do so.)</p><p class="sub"><b class="bold">• </b>No testing required.</p></h4>
+						</div>
+
+						<div>
+						<div class="text_text--border">
+							<h4 class="pass_title">Yellow Pass</h4>
+							<h4 class="text_text"><p> </p><p><b class="pass_name">Student - Yellow Pass:<p></p></b> Those who exhibit secondary symptoms (e.g., unexplained new sore throat, headache, body aches, etc.)</p><p>Those individuals with secondary symptoms for two or more days should call <a href="https://www.intelmed.kg/ru/bishkek/news/test-na-antitela-covid-19/">Bonetsky's Labaratory</a> to be scheduled for testing.</p><p class="sub"><b class="bold">• </b>They will receive an antigen test.</p><p class="sub2"><b class="bold2">◦ </b>If that is positive, they will go directly into isolation.</p><p class="sub2"><b class="bold2">◦ </b>If it is negative, they will receive a follow up PCR test and go directly into quarantine until that test result is received.</p><p>Those Individuals with only one day of secondary symptoms should monitor their symptoms. Immediate testing is not medically recommended. If these individuals prefer to be assessed earlier for testing, they may call <a href="https://www.intelmed.kg/ru/bishkek/news/test-na-antitela-covid-19/">Bonetsky's Labaratory</a>.</p><p class="sub"><b class="bold">• </b>They will be scheduled for an antigen test as a precautionary measure.</p><p class="sub2"><b class="bold2">◦ </b>Will not be required to isolate unless the antigen test comes back positive.</p></h4>
+						</div>
+
+						<div class="text_text text_text--border"><p class="sub"><i>Students with a yellow pass are not excused from classes. Students with a yellow pass should continue attending classes online while turning in assignments and completing exams virtually.</i></p><p class="sub"><i>If students with a yellow pass are too ill to attend class, turn in assignments, or complete exams virtually, they should contact University Health Services to schedule a telehealth appointment. If appropriate, a medical excuse could be provided to the student to then be given to the instructor as a medical excuse. Without this excuse from University Health Service, an absence is considered unexcused.</i></p><p class="sub"><i>If an instructor does not have a process for a student with a yellow pass to turn in assignments and/or take exams online, the instructor must accommodate the student and allow for the work to be completed when the student’s pass returns to green.</i></p></div>
+
+						<div><h4 class="text_text"><p><b class="pass_name">Faculty/Staff - Yellow Pass: <p> </p></b> Those who exhibit secondary symptoms (e.g., unexplained new sore throat, headache, body aches, etc.).</p><p>These individuals should stay home and monitor symptoms, though they may report to work if the symptoms checked are mild and of known origin. They should exercise their best judgment about coming to campus in person.</p><p>If symptoms worsen or persist for two or more consecutive days, or if these individuals want to discuss their symptoms, they may contact the <a href="https://www.intelmed.kg/ru/bishkek/news/test-na-antitela-covid-19/">Bonetsky's Labaratory</a> or their private healthcare provider for a clinical assessment.</p><p class="sub"><b class="bold">• </b>These individuals can be tested at the Universities Health Service and may also choose to be tested elsewhere.</p></h4></div>
+					
+						<div class="text_text--border">
+							<h4 class="pass_title">Red Pass</h4>
+							<h4 class="text_text"><p> </p><p><b class="pass_name">Student - Red Pass A:<p> </p></b> Those who indicate they are exhibiting one of the big three symptoms (fever greater than 100.4, shortness of breath, or loss of sense of taste or smell).</p><p>These individuals will be scheduled automatically for testing at <a href="https://www.intelmed.kg/ru/bishkek/news/test-na-antitela-covid-19/">Bonetsky's Labaratory</a> without need for a telehealth consultation.</p><p class="sub"><b class="bold">• </b>These individuals will receive a rapid antigen test.</p><p class="sub2"><b class="bold2">◦ </b>If that is positive, they will go directly into isolation.</p><p class="sub2"><b class="bold2">◦ </b>If it is negative, they will receive a follow up PCR test during the same visit to the stadium testing center and go directly into quarantine until that test result is received.
+							<p><b class="pass_name">Student - Red Pass B:<p></p></b> Those who believe they may have had direct, sustained contact with someone diagnosed with COVID-19 in the last 14 days (except of course for those who are already in quarantine).</p><p>These individuals will be scheduled automatically for testing at <a href="https://www.intelmed.kg/ru/bishkek/news/test-na-antitela-covid-19/">Bonetsky's Labaratory</a> without need for a telehealth consultation.</p><p class="sub"><b class="bold">• </b>These individuals will receive further assessment at the testing center in addition to a rapid antigen test as a precautionary measure, but will not be required to isolate unless the test result comes back positive or they have been determined to be a true close contact.</p></h4>
+						</div>
+
+						<div class="text_text text_text--border"><p class="sub"><i>Students with a red pass are not excused from classes. Students with a red pass should continue attending classes online while turning in assignments and completing exams virtually.</i></p><p class="sub"><i>If students with a red pass are too ill to attend class, turn in assignments, or complete exams virtually, they should contact University Health Services to schedule a telehealth appointment. If appropriate, a medical excuse could be provided to the student to then be given to the instructor as a medical excuse. Without this excuse from Univerdity Helath Service, an absence is considered unexcused.</i></p><p class="sub"><i>If an instructor does not have a process for a student with a red pass to turn in assignments and/or take exams online, the instructor must accommodate the student and allow for the work to be completed when the student’s pass returns to green.</i></p></div>
+
+						<div><h4 class="text_text"><p><b class="pass_name">Faculty/Staff - Red Pass:<p> </p></b> Those who indicate they are exhibiting one of the big three symptoms (fever >100.4, shortness of breath, loss of sense of taste or smell) or believe they may have had direct, sustained contact with someone diagnosed with COVID-19 in the last 14 days</p><p>These individuals should contact either the <a href="https://www.intelmed.kg/ru/bishkek/news/test-na-antitela-covid-19/">Bonetsky's Labaratory</a> or their private healthcare provider for clinical assessment.</p><p class="sub"><b class="bold">• </b>These individuals can be tested at the <a href="https://www.intelmed.kg/ru/bishkek/news/test-na-antitela-covid-19/">Bonetsky's Labaratory</a>, but may instead choose to be tested elsewhere.</p><p class="sub"><b class="bold">• </b>These individuals should quarantine at home until test results are received and they are cleared to return to work by the <a href="https://www.intelmed.kg/ru/bishkek/news/test-na-antitela-covid-19/">Bonetsky's Labaratory</a> or their private provider.</p><p>If you wish to review your Campus Pass for the day, you can log in to review or print your pass.</p></h4></div>
+
+					</div>
+			</div>
+		</div>
+
+		<div class="text_item">
+				<img class="text_icon" src="images/logo/slavic.jpg" alt="">
+					<h4 class="text_title">Terms, Privacy, and Data</h4>
+				<h4 class="text_text"><p>The <a href="/home">Helath & Safety</a> is a vital component in AIU's work to address health and safety on campus. Everyone at AIU must complete a daily health check. Your answers will be used to determine your campus pass status and to support ongoing health and wellness activities. In addition, AIU may use this information for internal evaluation and analysis.</p></h4>
+		</div>
+	</div>
+
+<div class="link">
+	<div class="container">
+		<div class="link_inner">
+			<nav class="link_nav">
+				<a class="nav_link1 nav_link1-1" href="/"> <img src="{{ url_for('static', filename='images/home.png') }}"> Home </a>
+				<a class="nav_link1 nav_link1-1" href="/face-masks"> <img src="{{ url_for('static', filename='images/mask.png') }}"> Face Masks </a>
+				<a class="nav_link1 nav_link1-1" href="/physical-distancing"> <img src="{{ url_for('static', filename='images/distance.png') }}"> Physical Distancing </a>
+				<a class="nav_link1 nav_link1-1" href="/hand-hygiene"> <img src="{{ url_for('static', filename='images/soap.png') }}"> Hand Hygiene </a>
+				<a class="nav_link1 nav_link1-1" href="/daily-health-check"> <img src="{{ url_for('static', filename='images/health.png') }}"> Daily Health Check </a>
+				<a class="nav_link1 nav_link1-1" href="/testing"> <img src="{{ url_for('static', filename='images/tube.png') }}"> Testing </a>
+			</nav>
+		</div>
+	</div>
+</div>
+
+	</div>
+{% endblock %}
+

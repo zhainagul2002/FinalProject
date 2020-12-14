@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Face Masks
+{% endblock %}
+
+{% block body %}
+	<div class="container">
+
+		<div>
+			<video class="video" controls>
+				<source src="{{ url_for('static', filename='videos/distance.mp4') }}" type="video/mp4">
+			</video>
+		</div>
+
+		<div class="text">
+			
+			<div class="text_item">
+				<img class="text_icon" src="images/logo/manas.jpg" alt="">
+					<h4 class="text_title">Physical Distancing</h4>
+				<h4 class="text_text"><p>Recent studies indicate that a significant portion of COVID-19 transmission is done by asymptomatic or presymptomatic individuals—those who don't know they are sick. That's why one of the first tools to employ in the fight against COVID-19 is physical distancing. Physical distancing means keeping space between yourself and other people outside of your home. Although the risk of severe illness may be different for everyone, anyone can become infected and spread COVID-19.</p>
+				<p>To practice physical distancing:</p><p class="sub"><b class="bold">• </b>Stay at least 6 feet (about 2 arms’ length) from other people</p><p class="sub"><b class="bold">• </b>Do not gather in groups</p><p class="sub"><b class="bold">• </b>Stay out of crowded places and avoid mass gatherings</p><p class="sub"><b class="bold">• </b>Observe posted maximum occupancy of rooms and maintain all furniture configurations and space setups that maximize physical distancing.</p><p class="sub"><b class="bold">• </b>Comply with partitions, stanchions, and other physical barriers or visual cues that are utilized to maintain physical distancing.</p><p class="sub2"><b class="bold2">◦ </b>Comply with partitions, stanchions, and other physical barriers or visual cues that are utilized to maintain physical distancing.</p></h4>
+			</div>
+
+		</div>
+
+<div class="link">
+	<div class="container">
+		<div class="link_inner">
+			<nav class="link_nav">
+				<a class="nav_link1 nav_link1-1" href="/"> <img src="{{ url_for('static', filename='images/home.png') }}"> Home </a>
+				<a class="nav_link1 nav_link1-1" href="/face-masks"> <img src="{{ url_for('static', filename='images/mask.png') }}"> Face Masks </a>
+				<a class="nav_link1 nav_link1-1" href="/physical-distancing"> <img src="{{ url_for('static', filename='images/distance.png') }}"> Physical Distancing </a>
+				<a class="nav_link1 nav_link1-1" href="/hand-hygiene"> <img src="{{ url_for('static', filename='images/soap.png') }}"> Hand Hygiene </a>
+				<a class="nav_link1 nav_link1-1" href="/daily-health-check"> <img src="{{ url_for('static', filename='images/health.png') }}"> Daily Health Check </a>
+				<a class="nav_link1 nav_link1-1" href="/testing"> <img src="{{ url_for('static', filename='images/tube.png') }}"> Testing </a>
+			</nav>
+		</div>
+	</div>
+</div>
+
+	</div>
+{% endblock %}

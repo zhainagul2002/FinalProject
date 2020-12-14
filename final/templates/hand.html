@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Face Masks
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+
+	<div>
+		<video class="video" controls>
+			<source src="{{ url_for('static', filename='videos/hand.mp4') }}" type="video/mp4">
+		</video>
+	</div>
+
+		<div class="text">
+
+			<div class="text_item ">
+				<img class="text_icon" src="images/logo/aiu.jpg" alt="">
+					<h4 class="text_title">Hand Hygiene</h4>
+				<h4 class="text_text"><p class="sub"><b class="bold">• </b>Wash your hands often with soap and water for at least 20 seconds.  </p><p class="sub"><b class="bold">• </b>Use an alcohol-based hand sanitizer that contains at least 60% alcohol if soap and water are not available. </p><p class="sub"><b class="bold">• </b>During Phase 2, hand sanitation stations were installed in campus building entrances in which employees are working and will be added to all campus buildings going forward. <p class="sub"><b class="bold">• </b>Perform hand hygiene frequently, including after touching your mask or face, when entering common spaces, workrooms and break rooms, and while using shared workspaces, electronic devices, equipment or other tools. </p><p class="sub"><b class="bold">• </b>Additional hand hygiene protocols, including the wearing of gloves, etc, may be required in various campus settings, as appropriate.</p></h4>
+			</div>
+
+		</div>
+
+<div class="link">
+	<div class="container">
+		<div class="link_inner">
+			<nav class="link_nav">
+				<a class="nav_link1 nav_link1-1" href="/"> <img src="{{ url_for('static', filename='images/home.png') }}"> Home </a>
+				<a class="nav_link1 nav_link1-1" href="/face-masks"> <img src="{{ url_for('static', filename='images/mask.png') }}"> Face Masks </a>
+				<a class="nav_link1 nav_link1-1" href="/physical-distancing"> <img src="{{ url_for('static', filename='images/distance.png') }}"> Physical Distancing </a>
+				<a class="nav_link1 nav_link1-1" href="/hand-hygiene"> <img src="{{ url_for('static', filename='images/soap.png') }}"> Hand Hygiene </a>
+				<a class="nav_link1 nav_link1-1" href="/daily-health-check"> <img src="{{ url_for('static', filename='images/health.png') }}"> Daily Health Check </a>
+				<a class="nav_link1 nav_link1-1" href="/testing"> <img src="{{ url_for('static', filename='images/tube.png') }}"> Testing </a>
+			</nav>
+		</div>
+	</div>
+</div>
+
+	</div>
+{% endblock %}

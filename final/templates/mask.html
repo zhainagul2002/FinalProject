@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Face Masks
+{% endblock %}
+
+{% block body %}
+<!--POPULAR--> 
+	<div class="container">
+
+		<div>
+			<video class="video" controls>
+				<source src="{{ url_for('static', filename='videos/mask.mp4') }}" type="video/mp4">
+			</video>
+		</div>
+
+		<div class="text">
+			<div class="text_item text_item--border">
+				<img class="text_icon" src="images/logo/slavic.jpg" alt="">
+					<h4 class="text_title">Face Masks</h4>
+				<h4 class="text_text"><p>Cloth masks, that can be sewn by yourself easily, are useful in drastically limiting the wearer’s potential to spread infection. From the early days of COVID-19 study, it was clear the illness is often spread via asymptomatic carriers. With this knowledge and the growing body of evidence that suggests masks are effective in stopping the spread of COVID-19, each member (students, professors, employees) of the AIU, and visitors to campus, should follow the rules such as:</p><p class="sub"><b class="bold">• </b> Masks must be worn on campus at all times and in all places (both outside and inside),except by faculty and staff when alone in a private office.</p><p class="sub"><b class="bold">• </b>Each student should have cloth masks. Staff and faculty members also should have several cloth masks. </p><p class="sub">Please wash your hands or use sanitizer prior to handling your mask.</p><p class="sub"><b class="bold">• </b>Masks are available for purchase at the bookstore(Volunteering club may sew and sell).</p></h4>
+			</div>
+
+			<div class="text_item text_item--border">
+				<img class="text_icon" src="images/logo/aiu.jpg" alt="">
+					<h4 class="text_title">Use and Care of Cloth Face Masks</h4>
+				<h4 class="text_text"><p>A cloth face mask should:</p><p class="sub"><b class="bold">• </b>Fasten securely with ties or ear loops</p><p class="sub"><b class="bold">• </b>Fit snugly but comfortably</p><p class="sub"><b class="bold">• </b>Include multiple layers</p><p class="sub"><b class="bold">• </b>Allow for breathing without restrictions</p><p class="sub"><b class="bold">• </b>Be able to be laundered</p></h4>
+			</div>
+
+			<div class="text_item text_item--border">
+				<img class="text_icon" src="images/logo/slavic.jpg" alt="">
+					<h4 class="text_title">Putting On/Taking Off the Mask</h4>
+				<h4 class="text_text"><p class="sub"><b class="bold">• </b>Wash hands or use hand sanitizer prior to handling.</p><p class="sub"><b class="bold">• </b>Wash hands or use hand sanitizer prior to handling.</p><p class="sub"><b class="bold">• </b>Do not touch your eyes, nose or mouth when removing the mask.</p><p class="sub"><b class="bold">• </b>Allow for breathing without restrictions</p><p class="sub"><b class="bold">• </b>Wash hands immediately after removing.</p></h4>
+			</div>
+
+			<div class="text_item text_item--border">
+				<img class="text_icon" src="images/logo/auca.jpg" alt="">
+					<h4 class="text_title">Care, Storage and Laundering</h4>
+				<h4 class="text_text"><p class="sub"><b class="bold">• </b>Cloth face masks may not be used more than one day at a time and must be washed after daily use. They should be replaced immediately if soiled, damaged or visibly contaminated. </p><p class="sub"><b class="bold">• </b>Keep cloth face masks in a paper bag when not in use.</p></h4>
+			</div>
+
+			<div class="text_item">
+				<img class="text_icon" src="images/logo/manas.jpg" alt="">
+					<h4 class="text_title">Enforcement</h4>
+				<h4 class="text_text"><p>University employees who disregard safety measures will be subject to disciplinary action consistent with AIU disciplinary policy and procedures and the faculty handbook or academic articles.</p>
+				<p>All who work at the University should also abide by the Respectful Environment Policy.  As stated in the policy, “AIU staff and faculty members are expected to treat members of the University community with dignity and respect.”  All who work at the University who engage in such unacceptable behavior may be subject to disciplinary action consistent with AIU disciplinary policy and procedures and the faculty handbook or academic articles.</p></h4>
+			</div>
+
+		</div> <!--/.POPULAR-->
+
+<div class="link">
+	<div class="container">
+		<div class="link_inner">
+			<nav class="link_nav">
+				<a class="nav_link1 nav_link1-1" href="/"> <img src="{{ url_for('static', filename='images/home.png') }}"> Home </a>
+				<a class="nav_link1 nav_link1-1" href="/face-masks"> <img src="{{ url_for('static', filename='images/mask.png') }}"> Face Masks </a>
+				<a class="nav_link1 nav_link1-1" href="/physical-distancing"> <img src="{{ url_for('static', filename='images/distance.png') }}"> Physical Distancing </a>
+				<a class="nav_link1 nav_link1-1" href="/hand-hygiene"> <img src="{{ url_for('static', filename='images/soap.png') }}"> Hand Hygiene </a>
+				<a class="nav_link1 nav_link1-1" href="/daily-health-check"> <img src="{{ url_for('static', filename='images/health.png') }}"> Daily Health Check </a>
+				<a class="nav_link1 nav_link1-1" href="/testing"> <img src="{{ url_for('static', filename='images/tube.png') }}"> Testing </a>
+			</nav>
+		</div>
+	</div>
+</div>
+
+	</div> <!--/.CONTAINER-->
+{% endblock %}
