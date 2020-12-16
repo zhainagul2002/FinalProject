@@ -23,5 +23,5 @@
 <p>Here is located the main part of the MAIN page. With the help off links there you can easily and faster reach to other pages of an app.</p>
 <p><h4><b><a href="https://flask-final-project.herokuapp.com/#"> - HOME</a></b></h4></p>
 <p>HOME page is the MAIN page of the web site. It looks the same with the MAIN page.</p>
-<p><h4><b><a href="https://flask-final-project.herokuapp.com/#"> - HOME</a></b></h4></p>
+<p><h4><b><a href="https://flask-final-project.herokuapp.com/#"> - FACE MASKS</a></b></h4></p>
 <p>HOME page is the MAIN page of the web site. It looks the same with the MAIN page.</p>
