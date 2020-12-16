@@ -9,7 +9,7 @@
 <p>An app <a href="https://flask-final-project.herokuapp.com/">HEALTH and SAFETY</a> was created and designed based on <a href="http://alatoo.edu.kg/">AIU's</a> official page. It can be added to a navigator COVID-19, which is located in <a href="http://alatoo.edu.kg/">Ala-Too's</a> official page as a sub-navigator.</p>
 <img src="final/img_readme/1.png" width="100%" height="380">
 <img src="final/img_readme/2.png" width="100%" height="380">
-<p>When you click to the sub-navigator <a href="https://flask-final-project.herokuapp.com/">HEALTH and SAFETY</a> there will appeare the home page of the app</p>
+<p>When you click to the sub-navigator <a href="https://flask-final-project.herokuapp.com/">HEALTH and SAFETY</a> there will appeare the home page of an app</p>
 <img src="final/img_readme/3.png" width="100%" height="380">
 <img src="final/img_readme/4.png" width="100%" height="380">
 <img src="final/img_readme/5.png" width="100%" height="380">
