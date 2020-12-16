@@ -30,3 +30,13 @@
 <p><h4><b><a href="https://flask-final-project.herokuapp.com/#"> - DAILY HEALTH CHECK</a></b></h4></p>
 <p>This section is the same as other sections of an app. The only difference is that it does not contain an informative video.</p>
 <p><h2><b>5. Texts</b></h2></p>
+<p>This is the part of the MAIN page, where general information about other parts of an app and a little about an app itself are given.Every paragraph contains the title and the text.</p>
+<p><h2><b>6. Daily Health Check Tool</b></h2></p>
+<p>This button will bring you to the most important part of an app, where you can check your daily health condition. And you should do it daily before coming to the campus during offline studies. Here is given several questions, and after your answers to that questions based on your answers the system will give you red, green or yellow pass as a result. The meaning of this all pass results and other additional information you can check in <a>Daily Health Check</a> section.</p>
+<img src="final/img_readme/6.png" width="100%" height="380">
+<img src="final/img_readme/7.png" width="100%" height="380">
+<p><h2><b>5. Footer</b></h2></p>
+<p>Footer of the page is a part where written a sentence that this page belongs to AIU.</p>
+<p>Generally, an app was created to be helpfull to the community.</p>
+<p><h2><b>FEEDBACKS:</b></h2></p>
+<p><video controls><source src="finals/img_readme/1.mp4" type="video/mp4"></video></p>
