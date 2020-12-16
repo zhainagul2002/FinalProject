@@ -3,6 +3,7 @@
 <h6></h6>
 <i>Some parts of articles in this app was taken from <a href="https://www.who.int/">www.who.int</a> and <a href="https://www.cdc.gov/">cdc.gov</a></i>
 <h6></h6>
+<p>The presentation of our project in you tube</p>
 <b> Here will be a video </b>
 <h6></h6>
 <p><a href="https://flask-final-project.herokuapp.com/">HEALTH and SAFETY</a> is an app that helps people during offline studies in this pandemic situation. With the help of things that are written here and with the help of the tool <a href="https://flask-final-project.herokuapp.com/daily">DAILY HEALTH CHECK</a> you can release the risk of get infected with covid-19 or get sick.</p>
@@ -39,4 +40,4 @@
 <p>Footer of the page is a part where written a sentence that this page belongs to AIU.</p>
 <p>Generally, an app was created to be helpfull to the community.</p>
 <p><h2><b>FEEDBACKS:</b></h2></p>
-<p><video controls><source src="finals/img_readme/1.mp4" type="video/mp4"></video></p>
+<p><video controls><source src="finals/img_readme/distance.mp4" type="video/mp4"></video></p>
