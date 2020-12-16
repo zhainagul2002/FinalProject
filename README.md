@@ -1,6 +1,7 @@
 # HEALTH & SAFETY
 <i>Was created by Dastan Kadyrov and Altynbek kyzy Zhainagul</i>
-<i>Some parts of articles in this app was taken from <a href="https://www.who.int/"></a> and <a href="https://www.cdc.gov/"></a></i>
+<h6></h6>
+<i>Some parts of articles in this app was taken from <a href="https://www.who.int/">www.who.int</a> and <a href="https://www.cdc.gov/">cdc.gov</a></i>
 <h6></h6>
 <b> Here will be a video </b>
 <h6></h6>
@@ -9,3 +10,18 @@
 <img src="final/img_readme/1.png" width="100%" height="380">
 <img src="final/img_readme/2.png" width="100%" height="380">
 <p>When you click to the sub-navigator <a href="https://flask-final-project.herokuapp.com/">HEALTH and SAFETY</a> there will appeare the home page of the app</p>
+<img src="final/img_readme/3.png" width="100%" height="380">
+<img src="final/img_readme/4.png" width="100%" height="380">
+<img src="final/img_readme/5.png" width="100%" height="380">
+<p><h2><b>1. Header</b></h2></p>
+<p>Part of the MAIN page, where the title of the page, contact informations and share links are located.</p>
+<p><h2><b>2. Navigator</b></h2></p>
+<p>Navigator is designed as same as in official AIU page. It helps you to easily reach to other main sections of an official page.</p>
+<p><h2><b>3. Slider</b></h2></p>
+<p>This is the part of the page, where some images are given in order to have the short image of an overall app.</p>
+<p><h2><b>4. Links</b></h2></p>
+<p>Here is located the main part of the MAIN page. With the help off links there you can easily and faster reach to other pages of an app.</p>
+<p><h4><b><a href="https://flask-final-project.herokuapp.com/#"> - HOME</a></b></h4></p>
+<p>HOME page is the MAIN page of the web site. It looks the same with the MAIN page.</p>
+<p><h4><b><a href="https://flask-final-project.herokuapp.com/#"> - HOME</a></b></h4></p>
+<p>HOME page is the MAIN page of the web site. It looks the same with the MAIN page.</p>
