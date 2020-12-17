@@ -36,8 +36,8 @@
 <p>This button will bring you to the most important part of an app, where you can check your daily health condition. And you should do it daily before coming to the campus during offline studies. Here is given several questions, and after your answers to that questions based on your answers the system will give you red, green or yellow pass as a result. The meaning of this all pass results and other additional information you can check in <a>Daily Health Check</a> section.</p>
 <img src="final/img_readme/6.png" width="100%" height="380">
 <img src="final/img_readme/7.png" width="100%" height="380">
-<p><h2><b>5. Footer</b></h2></p>
+<p><h2><b>7. Footer</b></h2></p>
 <p>Footer of the page is a part where written a sentence that this page belongs to AIU.</p>
 <p>Generally, an app was created to be helpfull to the community.</p>
 <p><h2><b>FEEDBACKS:</b></h2></p>
-<p><video controls><source src="finals/img_readme/distance.mp4" type="video/mp4"></video></p>
+<p><video controls><source src="final/img_readme/distance.mp4" type="video/mp4"></video></p>
