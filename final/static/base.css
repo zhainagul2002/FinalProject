@@ -426,3 +426,310 @@ h1, h2, h3, h4, h5, h6 {
 	max-width: 700px;
 	width: 700px;
 }
+
+.home-box {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	font-size: 16px;
+	outline: none;
+	padding: 0;
+}
+
+.custom-box {
+	max-width: 700px;
+	background-color: #d8dfea;
+	margin: 40px auto;
+	padding: 30px;
+	border-radius: 10px;
+	animation: fadeInRight 1s ease;
+}
+
+@keyframes fadeInRight{
+	0%{
+		transform: translateX(40px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+.custom-box::before,
+.custom-box::after{
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.custom-box.hide{
+	display: none;
+}
+
+.home-box h2{
+	font-size: 25px;
+	color: #000000;
+	font-weight: 500;
+	margin-bottom: 15px;
+	line-height: 25px;
+}
+
+.home-box p{
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color: #000000;
+	font-weight: 400;
+}
+
+.home-box p span{
+	font-weight: 500;
+}
+
+.home-box .btn{
+	margin-top: 20px;
+}
+
+.btn {
+	padding: 15px 45px;
+	background-color: #009688;
+	border: none;
+	color: #ffffff;
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+}
+.quiz-box .question-number,
+.quiz-box .question-text,
+.quiz-box .option-container,
+.quiz-box .next-question-btn,
+.quiz-box .answers-indicator{
+	width: 100%;
+	float: left;
+}
+.quiz-box .question-number {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #009688;
+	font-weight: 600; 
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 10px;
+	line-height: 25px;
+	display: inline-block;
+}
+.quiz-box .question-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	color: #000000;
+	line-height: 28px;
+	font-weight: 400;
+	padding: 20px 0;
+	margin: 0;
+}
+
+.quiz-box .option-container .option{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #cccccc;
+	padding: 15px;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000000;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	text-transform: capitalize;
+	opacity: 0;
+	animation: fadeIn 0.3s ease forwards;
+	position: relative;
+	overflow: hidden;
+}
+
+.quiz-box .option-container .option.already-answered{
+	pointer-events: none;
+}
+
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.quiz-box .option-container .option.correct::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #00cc00;
+	z-index: -1;
+	animation: slideInLeft .5s ease forwards
+}
+
+@keyframes slideInLeft{
+	0%{
+		transform: translateX(-100%);
+	}
+	100%{
+		transform: translateX(0%);
+	}
+}
+
+.quiz-box .option-container .option.normal::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #ffff4d;
+	z-index: -1;
+	animation: slideInLeft .5s ease forwards
+}
+
+.quiz-box .option-container .option.wrong::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #ff0000;
+	z-index: -1;
+	animation: slideInLeft .5s ease forwards
+}
+
+.quiz-box .option-container .option.normal{
+	color: #2a3551;
+}
+
+.quiz-box .option-container .option.wrong{
+	color: #2a3551;
+}
+
+.quiz-box .option-container .option.correct{
+	color: #2a3551;
+}
+
+.quiz-box .btn{
+	margin: 15px 0;
+}
+.quiz-box .answers-indicator {
+	border-top: 2px solid #cccccc;
+}
+.quiz-box .answers-indicator div{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background-color: #cccccc;
+	border-radius: 50%;
+	margin-right: 3px;
+	margin-top: 15px;
+}
+
+.quiz-box .answers-indicator div.correct{
+	background-color: #00cc00;
+}
+.quiz-box .answers-indicator div.wrong{
+	background-color: #ff0000;
+}
+.quiz-box .answers-indicator div.normal{
+	background-color: #ffff4d;
+}
+
+.result-box {
+	text-align: center;
+}
+
+.result-box.hide{
+	display: none;
+}
+
+.result-box h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	line-height: 42px;
+	color: #009688;
+}
+.result-box h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.total-score {
+	margin: 20px;
+	padding: 15px;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	background-color: #2a3551;
+
+}
+
+.result-box .btn{
+	margin-right: 20px;
+}
+.res-text {
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin: 30px 0;
+}
+
+@media (max-width: 1200px) {
+	.name {
+		padding-top: 18px;
+		padding-bottom: 18px;
+		font-size: 30px;
+	}
+	.logo {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.contact {
+		padding-top: 28px;;
+		font-size: 15px;
+	}
+	.social_item {
+		padding-top: 55px;
+	}
+	.nav {
+		font-size: 10px;
+	}
+	.pics {
+		height: 40vh;
+	}
+	.link {
+		margin-top: 18px;
+		padding-bottom: 19px;
+		font-size: 11px;
+	}
+	.nav_link1 {
+		margin-left: 6px;
+		margin-right: 5px;
+	}
+	.section_title {
+		font-size: 40px;
+	}
+	.section_header { 
+		margin: 0 auto 18px;
+		margin-top: 25px;
+	}
+	.popular {
+		margin: 5px 0;
+	}
+	.popular_item {
+		padding: 0 30px 35px 80px;
+		margin: 15px 0;
+	}
+	.popular_icon {
+		margin-bottom: 20px;
+	}
+
+	.popular_title {
+		font-size: 28px;	
+	}
+}	
