@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Face Masks
+{% endblock %}
+
+{% block body %}
+<div class="home-box custom-box">
+	<h2>Instruction:</h2>
+	<p>All members of the AIU community (students, faculty and staff) should conduct a daily health check. The daily health check will take less than two minutes to complete and will help you determine whether you present symptoms that require isolation or further assessment. Once you complete your check, you will be issued a green pass, indicating you are clear to come to campus; or a red pass, indicating you should stay in place and follow instructions.</p>
+	<p>Total number of questions: <span class="total-question"></span></p>
+	<button type="button" class="btn" onclick="startQuiz()">Start Questionnaire</button>
+</div>
+
+<div class="quiz-box custom-box hide">
+	<div class="question-number">
+		
+	</div>
+	<div class="question-text">
+		
+	</div>
+	<div class="option-container">
+		
+	</div>
+	<div class="next-question-btn">
+		<button type="button" class="btn" onclick="next()">Next</button>
+	</div>
+	<div class="answers-indicator">
+		
+	</div>
+</div>
+
+<div class="result-box custom-box hide">
+	<h1>Questionnaire Result</h1>
+	<h2>Your Result:</h2>
+	<h2><span class="total-score"></span></h2>
+	<p class="res-text"></p>
+	<button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
+	<button type="button" class="btn" onclick="goToHome()">Go To Home</button>
+</div>
+
+<div class="link">
+	<div class="container">
+		<div class="link_inner">
+			<nav class="link_nav">
+				<a class="nav_link1 nav_link1-1" href="/"> <img src="{{ url_for('static', filename='images/home.png') }}"> Home </a>
+				<a class="nav_link1 nav_link1-1" href="/face-masks"> <img src="{{ url_for('static', filename='images/mask.png') }}"> Face Masks </a>
+				<a class="nav_link1 nav_link1-1" href="/physical-distancing"> <img src="{{ url_for('static', filename='images/distance.png') }}"> Physical Distancing </a>
+				<a class="nav_link1 nav_link1-1" href="/hand-hygiene"> <img src="{{ url_for('static', filename='images/soap.png') }}"> Hand Hygiene </a>
+				<a class="nav_link1 nav_link1-1" href="/daily-health-check"> <img src="{{ url_for('static', filename='images/health.png') }}"> Daily Health Check </a>
+				<a class="nav_link1 nav_link1-1" href="/testing"> <img src="{{ url_for('static', filename='images/tube.png') }}"> Testing </a>
+			</nav>
+		</div>
+	</div>
+</div>
+
+
+<script src="{{ url_for('static', filename='question.js') }}"></script>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+{% endblock %}
