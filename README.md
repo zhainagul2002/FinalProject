@@ -38,12 +38,13 @@
 <img src="final/img_readme/8.png" width="100%" height="380">
 <p>Then, you should fill that questionnaire.</p>
 <img src="final/img_readme/9.png" width="100%" height="380">
-<p>You will receive a GREEN, YELLOW, or RED pass,according to your answers. <b>GREEN:</b></p>
+<p>You will receive a GREEN, YELLOW, or RED pass,according to your answers. </p>
+<p><b>GREEN:</b></p>
 <p>Those who do not exhibit any symptoms and who have not been in close contact with someone who has been diagnosed with COVID. You are cleared to be on campus to attend classes, work, and other activities. (Note: This does not change your current job arrangement—only return to campus when advised by your supervisor to do so.)</p>
-<img src="final/img_readme/10.png" width="100%" height="380">
+<img src="final/img_readme/11.png" width="100%" height="380">
 <p><b>YELLOW:</b></p>
 <p>Those who exhibit secondary symptoms (e.g., unexplained new sore throat, headache, body aches, etc.)</p>
-<img src="final/img_readme/11.png" width="100%" height="380">
+<img src="final/img_readme/10.png" width="100%" height="380">
 <p><b>RED:</b></p>
 <p>Those who indicate they are exhibiting one of the big three symptoms (fever greater than 100.4, shortness of breath, or loss of sense of taste or smell).</p>
 <img src="final/img_readme/12.png" width="100%" height="380">
