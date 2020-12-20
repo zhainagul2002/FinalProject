@@ -3,7 +3,7 @@
 <h6></h6>
 <i>Some parts of articles in this app was taken from <a href="https://www.who.int/">www.who.int</a> and <a href="https://www.cdc.gov/">cdc.gov</a></i>
 <h6></h6>
-<p>The presentation of a project in you tube: </p>
+<p>The presentation of a project on you tube: </p>
 <b> Here will be a video </b>
 <h6></h6>
 <p><a href="https://health-safety.herokuapp.com/">HEALTH and SAFETY</a> is an app that helps people during offline studies in this pandemic situation. With the help of things that are written here and with the help of the tool <a href="https://health-safety.herokuapp.com/daily">DAILY HEALTH CHECK</a> you can release the risk of get infected with covid-19 or get sick.</p>
