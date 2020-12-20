@@ -4,8 +4,7 @@
 <i>Some parts of articles in this app was taken from <a href="https://www.who.int/">www.who.int</a> and <a href="https://www.cdc.gov/">cdc.gov</a></i>
 <h6></h6>
 <p>The presentation of our project on you tube: </p>
-<b> <a href="https://youtu.be/PFlfOk0YC5I">VIDEO</a> </b>
-<h6></h6>
+<b>**<a href="https://youtu.be/PFlfOk0YC5I">VIDEO</a>**</b>
 <p><a href="https://health-safety.herokuapp.com/">HEALTH and SAFETY</a> is an app that helps people during offline studies in this pandemic situation. With the help of things that are written here and with the help of the tool <a href="https://health-safety.herokuapp.com/daily">DAILY HEALTH CHECK</a> you can release the risk of get infected with covid-19 or get sick.</p>
 <p>An app <a href="https://health-safety.herokuapp.com/">HEALTH and SAFETY</a> was created and designed based on <a href="http://alatoo.edu.kg/">AIU's</a> official page. It can be added to a navigator COVID-19, which is located in <a href="http://alatoo.edu.kg/">Ala-Too's</a> official page as a sub-navigator.</p>
 <img src="final/img_readme/1.png" width="100%" height="380">
