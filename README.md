@@ -52,4 +52,4 @@
 <p>Footer of the page is a part where written a sentence that this page belongs to AIU.</p>
 <p>Generally, an app was created to be helpfull to the community.</p>
 <p><h2><b>FEEDBACKS:</b></h2></p>
-<p><video controls><source src="final/img_readme/distance.mp4" type="video/mp4"></video></p>
+<p><a href="https://www.youtube.com/watch?v=rgjDtfde5hM&feature=youtu.be"> •• VIDEO •• </a></p>
